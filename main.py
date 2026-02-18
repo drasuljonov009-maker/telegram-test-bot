@@ -23,7 +23,7 @@ TESTS_FILE = "tests.json"
 RESULTS_FILE = "results.json"
 
 # Admin ID - O'qituvchi ID
-ADMIN_ID = 123456789  # Bu yerga o'z Telegram ID ni qo'ying
+ADMIN_ID = 658728145  # Bu yerga o'z Telegram ID ni qo'ying
 
 def load_data(filename):
     """Fayldan ma'lumotlarni yuklash"""
@@ -430,5 +430,6 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
