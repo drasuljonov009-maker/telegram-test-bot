@@ -3,7 +3,8 @@ O'qtuvchi uchun Test Tekshiruvchi Telegram Bot
 Bu bot orqali o'qituvchilar test yaratish, talabalardan javob olish va natijalarni ko'rish mumkin
 """
 
-from telebot import Update, InlineKeyboardButton, InlineKeyboardMarkup
+import telebot
+from telebot import types # Tugmalar va Update-lar shu types ichida bo'ladi
 from telebot.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ConversationHandler, filters, ContextTypes
 import json
 import os
@@ -425,4 +426,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
