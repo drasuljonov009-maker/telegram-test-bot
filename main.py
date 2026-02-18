@@ -3,9 +3,11 @@ O'qtuvchi uchun Test Tekshiruvchi Telegram Bot
 Bu bot orqali o'qituvchilar test yaratish, talabalardan javob olish va natijalarni ko'rish mumkin
 """
 
-import telebot
-from telebot import types # Tugmalar va Update-lar shu types ichida bo'ladi
-from telebot.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ConversationHandler, filters, ContextTypes
+import logging
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ConversationHandler, filters, ContextTypes
+
+# Eski "import telebot" yoki "from telebot..." degan qatorlarni butunlay o'chiring!
 import json
 import os
 from datetime import datetime
@@ -428,3 +430,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
