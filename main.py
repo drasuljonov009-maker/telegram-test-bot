@@ -13,7 +13,7 @@ import os
 from datetime import datetime
 
 # Bot Token - Bu yerga o'z bot tokeningizni qo'ying
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8583732852:AAE9jIiZ9urIXv1AHY-9h_1QQQdrP9FgQ9I"
 
 # Holatlar
 CREATING_TEST, ADD_QUESTION, ADD_OPTIONS, ADD_ANSWER, TAKING_TEST = range(5)
@@ -430,4 +430,5 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
